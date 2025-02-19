@@ -1,0 +1,81 @@
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: linear-gradient(64deg, rgb(171, 92, 224), rgb(216, 159, 37),rgb(167, 226, 72), rgb(96, 111, 177),rgb(17, 238, 153));
+}
+button{
+    background-image: linear-gradient(to bottom right, red, green, yellow);
+    color: white;   
+     
+}
+.nadpis{
+    font-size: 30px;
+}
+.baner{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-image: linear-gradient(64deg, gray, blue, green, red, purple)
+}
+.vyberpodnadpisem{
+    background-image: linear-gradient(145deg, blue, pink, gray);
+    border: lightblue;
+    color: black;
+}
+button:hover{
+    transition: all;
+    transition-duration: 0.5s;
+    transform: rotateX(180deg);
+}
+.MokrySyn:hover{
+    transition: all;
+    transition-duration: 0.5s;
+    transform: rotateX(360deg);
+}
+.MokrySyn{
+    border: black;
+
+}
+.obsah{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-image: linear-gradient(80deg, blue, yellow, pink, green);
+}
+.obory{
+    display: flex; 
+    gap: 20px;
+    padding: 10px;
+    background-image: linear-gradient(243deg, indigo, orange, skyblue, pink);
+}
+.obor{
+    background-image: linear-gradient(76deg, pink, gray, green, lightblue );
+    padding: 10px; 
+    width: 30%;
+}
+.ImageContainer {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center;
+    background-image: linear-gradient(193deg, rgb(199, 206, 185), rgb(60, 26, 13), rgb(45, 210, 114), rgb(141, 54, 38));
+}
+
+.ImageBox {
+    margin: 5%;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(222deg, rgb(21, 9, 8), rgb(164, 184, 111), rgb(62, 17, 38), rgb(135, 202, 245));
+    
+}
+
+.ImageBox img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    
+}
+.ImageBox img:hover{
+    transition: all;
+    transition-duration: 0.5s;
+    transform: rotateX(360deg);
+}
